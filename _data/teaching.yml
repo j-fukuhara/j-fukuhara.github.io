@@ -1,0 +1,30 @@
+- title: Introduction to Computer Science 
+  type: nested_list
+#  note: For first-year university students
+  contents: 
+    - title: Basic skills
+      items: 
+        - UNIX, shell, HTML, Tex       
+    - title: C language
+      items: 
+        - Introduction to C
+        - variable, array, control flow, pointer, function, structure, ...
+
+- title: OCaml (functional programming language)
+  type: nested_list
+  contents:
+    - title: Introduction to OCaml
+      items: data structure, recursive function, higher-order function, variant, ...
+    - title: Interpreter of Prolog
+      items: lexer, parser, unification, deduction, ...
+      
+- title: Java (Object-oriented programming)
+  type: nested_list
+  contents: 
+    - title: Introduction to Java
+      items: class, encapsulation, inheritance, polymorphism, ...
+    - title: Game programming
+      items: multi thread, GUI, JavaFX
+    - title: Network programming
+      items: TCP, UDP, HTTP, SMTP, POP3, FTP, ...
+      

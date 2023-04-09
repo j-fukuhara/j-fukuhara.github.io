@@ -1,6 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+ 
+"JIP":
+  url: https://www.ipsj.or.jp/english/jip/index.html
+  
+"LCTES2022":
+  url: https://dl.acm.org/doi/proceedings/10.1145/3519941
   color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
