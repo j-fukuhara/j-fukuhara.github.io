@@ -15,10 +15,10 @@
   contents:
     - title: Introduction to OCaml
       items: data structure, recursive function, higher-order function, variant, ...
-    - title: Interpreter of Prolog
+    - title: Prolog Interpreter
       items: lexer, parser, unification, deduction, ...
       
-- title: Java (Object-oriented programming)
+- title: Java (object-oriented programming)
   type: nested_list
   contents: 
     - title: Introduction to Java

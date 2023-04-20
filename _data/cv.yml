@@ -15,7 +15,7 @@
       items: 
         - code optimization to achieve the speedup of programs, save energy, and reduce code size.
         - code optimization for GPUs, RISC-V, and FPGA.
-        - application of machine learning to code optimization
+        - application of machine learning techniques to code optimization
     - title: High-Performance Computing
       items:
         - achieving the speedup of programs by domain-specific architectures, GPUs, and FPGA.

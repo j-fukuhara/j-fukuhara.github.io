@@ -5,3 +5,7 @@
 "LCTES2022":
   url: https://dl.acm.org/doi/proceedings/10.1145/3519941
   color: "#00369f"
+  
+"IHIET-AI2023":
+  url: http://ihiet-ai.org/index.html
+  color: "#00369f"
