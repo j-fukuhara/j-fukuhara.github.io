@@ -18,7 +18,7 @@
         - application of machine learning techniques to code optimization
     - title: High-Performance Computing
       items:
-        - achieving the speedup of programs by domain-specific architectures, GPUs, and FPGA.
+        - achieving the speedup of programs by parallel processing, domain-specific architectures, GPUs, and FPGA.
 
 
 - title: Education
