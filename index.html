@@ -24,7 +24,7 @@
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
@@ -37,11 +37,6 @@
     <link rel="canonical" href="https://j-fukuhara.github.io/">
     
     <!-- Dark Mode -->
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
-
-    <script src="/assets/js/theme.js"></script>
-    <script src="/assets/js/dark_mode.js"></script>
     
 
   </head>
@@ -82,14 +77,6 @@
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/teaching/">teaching</a>
-              </li>
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                </button>
               </li>
             </ul>
           </div>
@@ -143,7 +130,7 @@
 <p>My academic work focuses on <strong>compiler optimization</strong> to improve the efficiency of programs, including speedup, saving energy, and code size reduction.
 In particular, I am currently interested in code optimization for <strong>GPUs</strong> (Graphics Processing Units) and the <strong>RISC-V</strong> architecture.</p>
 
-<p>I am also interested in high-performance computing, embedded systems, machine learning, and Inductive Logic Programming (Explainable AI, XAI).</p>
+<p>I am also interested in high-performance computing, parallel processing, embedded systems, machine learning, and Inductive Logic Programming (Explainable AI, XAI).</p>
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
@@ -158,9 +145,23 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <!-- News -->
           <h2><a href="/news/" style="color: inherit;">news</a></h2>          
           <div class="news">
-            <div class="table-responsive">
+            <div class="table-responsive" style="max-height: 10vw">
               <table class="table table-sm table-borderless">
                
+                <tr>
+                  <th scope="row">Oct 11, 2023</th>
+                  <td>
+                    My PhD thesis, “Compiler Optimization for GPU Based on Code Motion”, is available online.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Apr 14, 2023</th>
+                  <td>
+                    Our paper, “Efficient Inductive Logic Programming based on Predictive A*-like Algorithm” in IHIET-AI 2023, is published.
+ 
+                  </td>
+                </tr> 
                 <tr>
                   <th scope="row">Apr 3, 2023</th>
                   <td>
@@ -210,7 +211,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Junji  Fukuhara. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: April 20, 2023.
+Last updated: October 17, 2023.
       </div>
     </footer>
 

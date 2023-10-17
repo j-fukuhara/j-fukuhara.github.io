@@ -23,7 +23,7 @@
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
@@ -36,11 +36,6 @@
     <link rel="canonical" href="https://j-fukuhara.github.io/publications/">
     
     <!-- Dark Mode -->
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
-
-    <script src="/assets/js/theme.js"></script>
-    <script src="/assets/js/dark_mode.js"></script>
     
 
   </head>
@@ -82,14 +77,6 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/teaching/">teaching</a>
               </li>
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                </button>
-              </li>
             </ul>
           </div>
         </div>
@@ -118,7 +105,58 @@
             <!-- _pages/publications.md -->
 <div class="publications">
   <h2 class="year">2023</h2>
-  <ol class="bibliography"><li>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#9f3a00"><a href="https://tus.repo.nii.ac.jp/records/3934" rel="external nofollow noopener" target="_blank">PhD Thesis</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="phd_thesis" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Compiler Optimization for GPU Based on Code Motion</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Junji Fukuhara</em>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Tokyo University of Science</em>, 2023
+        </div>
+        <div class="periodical">
+          My PhD thesis is available online. It is written in English except for the first page.
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://tus.repo.nii.ac.jp/records/3934" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@phdthesis</span><span class="p">{</span><span class="nl">phd_thesis</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Fukuhara, Junji}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Compiler Optimization for GPU Based on Code Motion}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">school</span> <span class="p">=</span> <span class="s">{Tokyo University of Science}</span><span class="p">,</span>
+  <span class="na">note</span> <span class="p">=</span> <span class="s">{My PhD thesis is available online. It is written in English except for the first page.}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#00369f"><a href="http://ihiet-ai.org/index.html" rel="external nofollow noopener" target="_blank">IHIET-AI2023</a></abbr></div>
@@ -182,7 +220,8 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+</ol>
 
   <h2 class="year">2022</h2>
   <ol class="bibliography">
@@ -364,7 +403,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Junji  Fukuhara. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: April 20, 2023.
+Last updated: October 17, 2023.
       </div>
     </footer>
 
