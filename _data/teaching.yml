@@ -28,3 +28,10 @@
     - title: Network programming
       items: TCP, UDP, HTTP, SMTP, POP3, FTP, ...
       
+- title: Compiler Optimization Seminar
+  type: nested_list
+  contents:
+    - title: Basic Optimizations
+      items: peephole, constant propagation, constant folding, common subexpression elimination, dead code elimination, partial redundancy elimination, register allocation, ...
+    - title: Optimizations in SSA form
+      items: common subexpression elimination, dead code elimination, global value numbering, ...

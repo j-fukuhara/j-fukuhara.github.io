@@ -15,12 +15,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor at Tokyo University of Science, Chiba, Japan.
+I am an Assistant Professor at [Tokyo University of Science](https://www.tus.ac.jp/en/fac/riko/info.html), Chiba, Japan.
 
 My academic work focuses on **compiler optimization** to improve the efficiency of programs, including speedup, saving energy, and code size reduction.
 In particular, I am currently interested in code optimization for **GPUs** (Graphics Processing Units) and the **RISC-V** architecture.
 
 I am also interested in high-performance computing, parallel processing, embedded systems, machine learning, and Inductive Logic Programming (Explainable AI, XAI).
+
+My publication list, presentation list, etc. are also summarized in [researchmap](https://researchmap.jp/jfukuhara?lang=en).
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
